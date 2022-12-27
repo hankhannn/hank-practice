@@ -1,10 +1,10 @@
-package com.hank.algorithm.practice;
+package com.hank.practice.algorithm;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author ：ranking.han
+ * @author ：hank.han
  * @date ：Created in 2022/8/31 17:19
  * @description：
  * @version: 1.0

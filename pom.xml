@@ -8,11 +8,11 @@
 		<version>2.7.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.hank.docker</groupId>
-	<artifactId>hank-docker</artifactId>
+	<groupId>com.hank.practice</groupId>
+	<artifactId>hank-practice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hank-docker</name>
-	<description>hank-docker</description>
+	<name>hank-practice</name>
+	<description>hank-practice</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

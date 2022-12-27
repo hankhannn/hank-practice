@@ -1,17 +1,36 @@
-package com.hank.algorithm.practice;
+package com.hank.practice.algorithm;
 
 import java.util.Scanner;
 
 /**
- * @author ：ranking.han
+ * @author ：hank.han
  * @date ：Created in 2022/8/22 17:10
  * @description：
  * @version: 1.0
  */
-public class MergeSort {
+public class QuickSort {
 
     public void sort(int[] array, int start, int end) {
+        if (start >= end) {
+            return;
+        }
 
+        int i = start, j = end, base = array[start];
+        while (i < j) {
+
+            while (i < j && array[j] >= base) {
+                j--;
+            }
+
+            while (i < j && array[i] <= base) {
+                i++;
+            }
+
+            swap(array, i, j);
+        }
+        swap(array, start, j);
+        sort(array, start, i - 1);
+        sort(array, i + 1, end);
     }
 
     private void swap(int[] arr, int i, int j) {
@@ -26,9 +45,9 @@ public class MergeSort {
         int[] array = new int[s.length()];
         int i = 0;
         for (char x : s.toCharArray())
-            array[i++] = Integer.parseInt(s.toLowerCase());
+            array[i++] = Integer.parseInt(String.valueOf(x));
 
-        new MergeSort().sort(array, 0, array.length - 1);
+        new QuickSort().sort(array, 0, array.length - 1);
         for (int j : array) {
             System.out.print(j);
             System.out.print(",");

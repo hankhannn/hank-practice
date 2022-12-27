@@ -1,4 +1,4 @@
-package com.hank.algorithm.practice;
+package com.hank.practice.algorithm;
 
 import graphql.com.google.common.base.Joiner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 /**
- * @author ：ranking.han
+ * @author ：hank.han
  * @date ：Created in 2022/9/21 10:30
  * @description：
  * @version: 1.0

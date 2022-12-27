@@ -1,9 +1,9 @@
-package com.hank.algorithm.practice;
+package com.hank.practice.algorithm;
 
 import java.util.Scanner;
 
 /**
- * @author ：ranking.han
+ * @author ：hank.han
  * @date ：Created in 2022/9/28 9:51
  * @description：
  * @version: 1.0
