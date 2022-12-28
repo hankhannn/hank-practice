@@ -33,6 +33,7 @@ public class ReadXmlCommandLine implements CommandLineRunner {
             XmlMapper mapper = new XmlMapper();
             Flow flow = mapper.readValue(resource.getInputStream(), Flow.class);
             List<Chain> flowChain = flow.getChain();
+
         }
     }
 }
